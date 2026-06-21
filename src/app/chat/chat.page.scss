@@ -1,0 +1,57 @@
+:host {
+  display: block;
+}
+
+.chat-content {
+  --padding-start: 12px;
+  --padding-end: 12px;
+  --padding-top: 12px;
+  --padding-bottom: 12px;
+}
+
+.messages {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  padding-bottom: 88px;
+}
+
+.bubble {
+  max-width: 86%;
+  padding: 10px 12px;
+  border-radius: 12px;
+  word-break: break-word;
+}
+
+.bubble p {
+  margin: 0;
+  white-space: pre-wrap;
+}
+
+.bubble.user {
+  margin-left: auto;
+  background: #cfe7ff;
+}
+
+.bubble.model {
+  margin-right: auto;
+  background: #ececec;
+}
+
+.bubble.system {
+  margin-right: auto;
+  background: #fff4cc;
+  color: #6e5600;
+}
+
+.input-row {
+  --padding-start: 8px;
+  --inner-padding-end: 8px;
+}
+
+.setup-error {
+  background: #ffe2e2;
+  color: #7f1d1d;
+  border-radius: 10px;
+  padding: 12px;
+}

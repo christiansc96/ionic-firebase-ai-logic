@@ -1,0 +1,7 @@
+{
+  "name": "firebase-ai-logic-demo",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular-standalone"
+}
